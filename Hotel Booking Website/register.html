@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Hotel Booking | Register</title>
+  <!-- Bootstrap CSS file -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<style>
+  body {
+    background-image: url('images/8.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+
+  }
+
+  div.a {
+    font-size: 15px;
+  }
+</style>
+
+<body>
+
+  <header>
+    <h2>Hotel Booking</h2>
+  </header>
+  <!--Body-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="images/logoo.png" alt="HTML5 Icon">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!--nav start-->
+      <ul class="navbar-nav mr-auto">
+        <!--links start-->
+        <li class="nav-item">
+          <a class="nav-link" href="main.html">Home </a>
+        </li>
+        <!---->
+        <li class="nav-item">
+          <a class="nav-link" href="hotels.html">Hotels</a>
+        </li>
+   
+        <!--links end-->
+        <!--dropdown menu start-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Account
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item " href="login.html">Login</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item active" href="#">Register</a>
+          </div>
+        </li>
+        <!--dropdown menu end-->
+      </ul>
+      <!--nav end-->
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" disabled type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" disabled type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <nav class="navbar navbar-dark bg-dark">
+    <!-- Navbar content -->
+  </nav>
+  <!-- Body ------------------------------------------------------------------------------------>
+  <br>
+
+  <div class="container-md">
+  <form id="LoginForm">
+    <fieldset>
+        <legend>🔐 Register</legend>
+        
+            <label>Username </label>
+            <input class="form-control" type="text" id="username" placeholder="Enter your username" maxlength="12" required/>
+            <small id="text" class="text-muted">
+              Must be 12 Characters Max.
+            </small>
+        
+        <br>
+            <label>Password </label>
+            <input class="form-control" type="password" id="password1" placeholder="Enter your password" required/>
+            <br>
+
+        
+            <label>Confirm Password </label>
+            <input class="form-control" type="password" id="password2" placeholder="Re-enter your password" required/>
+        
+            <br>
+
+          <label>Email </label>
+          <input class="form-control" type="email" id="Email" placeholder="example@domain.com" required/>
+          <br>
+
+      
+        <label>Age </label>
+        <input class="form-control" type="number" id="Age" required/>
+        <br>
+
+    
+    <label>Date of birth </label>
+    <input class="form-control" type="date" id="Date" required/>
+    <br>
+
+<div class="checkbox mb-3">
+  <label>
+    <input type="checkbox" value="remember-me"> Agree to the <a href="#">Privacy Policy</a>
+  </label>
+</div>
+        <input type="submit" value="Register" class="btn btn-primary btn-lg" />
+        <input type="reset" value="Reset" class="btn btn-light"/>
+        
+    </fieldset>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2019</p>
+</form>
+</div>
+<script type="text/javascript" src="LoginJavaScript.js"></script>
+
+
+
+
+  <footer class="footer">
+    <div class="a">Phone: 0534618001.</div>
+    <div class="a">To Contact Click <a href="mailto:xibra9141@gmail.com">
+        Here</a>.</div>
+    © 2020 Copyright: <a href="BookMe.com">
+      BookMe.com</a>
+  </footer>
+
+
+
+
+
+
+
+
+  <!-- Bodyend ------------------------------------------------------------------------------------>
+
+
+  <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+  <script type="text/javascript" src="js/LoginJavaScript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src"js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/LoginJavaScript.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hotel Booking | Hotels</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<style>
+body {
+ background-image: url('images/8.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+}
+div.a {
+  font-size: 15px;
+}
+</style>
+<body>
+
+<header>
+  <h2>Hotel Booking</h2>
+</header>
+<!--Body-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="images/logoo.png" alt="HTML5 Icon">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!--nav start-->
+    <ul class="navbar-nav mr-auto">
+      <!--links start-->
+      <li class="nav-item">
+        <a class="nav-link" href="main.html">Home </a>
+      </li>
+      <!---->
+      <li class="nav-item">
+        <a class="nav-link active" href="hotels.html">Hotels</a>
+      </li>
+
+      <!--links end-->
+      <!--dropdown menu start-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="login.html">Login</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="register.html">Register</a>
+        </div>
+      </li>
+      <!--dropdown menu end-->
+    </ul>
+    <!--nav end-->
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" disabled type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" disabled type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<nav class="navbar navbar-dark bg-dark">
+  <!-- Navbar content -->
+</nav>
+<!-- Body ------------------------------------------------------------------------------------>
+<br>
+
+<div class="container">
+
+
+  <div class="row row-cols-1 row-cols-md-3">
+    <!-- card 1 -->
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/h1.png" class="card-img-top" alt="Hotel image">
+        <div class="card-body">
+          <h5 class="card-title" ><span class="badge badge-success">Condo Hotel</span> Hafawah Suites</h5>
+          <p class="card-text" style="color:#003580;font-size:16px;"> Very Good. <span class="badge badge-primary">8.4</span></p>
+          <p style="font-size:10px;">King Studio <span style="color:#0ab21b">FREE cancellation and no prepayment needed</span>
+          <p><span style="color:#707070; font-weight: 100;font-size: small;">1 Night</span><br> SAR 251</p>
+          
+          <a href="HotelsPages/hotel1.html" class="btn btn-primary">Book now >></a>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="col mb-4">
+      <div class="card h-100">
+       <!-- 1 image --> <img src="images/h2.png" class="card-img-top" alt="Hotel image">
+        <div class="card-body">
+         <!-- 2 bade of hotel | 3 name of hotel --> <h5 class="card-title" ><span class="badge badge-secondary">Hotel</span> Golden Garden AlMadhina Hotel </h5>
+         <!-- 4 good and rate? --> <p class="card-text" style="color:#003580;font-size:16px;">Good. <span class="badge badge-primary">7.8</span></p>
+         <!-- 5 information --> <p style="font-size:10px;">Standard King Studio <span style="color:#0ab21b">FREE cancellation and no prepayment needed</span>
+         <!-- 6 price --> <p><span style="color:#707070; font-weight: 100;font-size: small;">1 Night</span><br> SAR 149</p>
+          
+          <a href="HotelsPages/hotel2.html" class="btn btn-primary">Book now >></a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/h3.png" class="card-img-top" alt="Hotel image">
+        <div class="card-body">
+          <h5 class="card-title" ><span class="badge badge-secondary">Hotel</span> Ewan Dar Alhejra Hotel </h5>
+          <p class="card-text" style="color:#003580;font-size:16px;"> Very Good. <span class="badge badge-primary">8.1</span></p>
+          <p style="font-size:10px;">Double Room <span style="color:#0ab21b">FREE cancellation and no prepayment needed</span>
+          <p><span style="color:#707070; font-weight: 100;font-size: small;">1 Night</span><br> SAR 140</p>
+          
+          <a href="HotelsPages/hotel3.html" class="btn btn-primary">Book now >></a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/h4.png" class="card-img-top" alt="Hotel image">
+        <div class="card-body">
+          <h5 class="card-title" ><span class="badge badge-secondary">Hotel</span> Marriott Executive Apartments Madinah</h5>
+          <p class="card-text" style="color:#003580;font-size:16px;">Excellent. <span class="badge badge-primary">8.9</span></p>
+          <p style="font-size:10px;">King Studio <span style="color:#0ab21b">FREE cancellation and no prepayment needed</span>
+          <p><span style="color:#707070; font-weight: 100;font-size: small;">1 Night</span><br> SAR 540</p>
+          
+          <a href="HotelsPages/hotel4.html" class="btn btn-primary">Book now >></a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/h5.png" class="card-img-top" alt="Hotel image">
+        <div class="card-body">
+          <h5 class="card-title" ><span class="badge badge-success">Condo Hotel</span>  Al Meknan Furnished Units </h5>
+          <p class="card-text" style="color:#003580;font-size:16px;">Good. <span class="badge badge-primary">7.0</span></p>
+          <p style="font-size:10px;">King Studio <span style="color:#0ab21b">FREE cancellation and no prepayment needed</span>
+          <p><span style="color:#707070; font-weight: 100;font-size: small;">1 Night</span><br> SAR 453</p>
+          
+          <a href="HotelsPages/hotel5.html" class="btn btn-primary">Book now >></a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="images/h6.png" class="card-img-top" alt="Hotel image">
+        <div class="card-body">
+          <h5 class="card-title" ><span class="badge badge-secondary">Hotel</span> Dallah Taibah Hotel <span class="badge badge-pill badge-warning">⭐ One of our top picks in Al Madinah</span></h5>
+          <p class="card-text" style="color:#003580;font-size:16px;"> Wonderful. <span class="badge badge-primary">9.3</span></p>
+          <p style="font-size:10px;">Twin Room <span style="color:#0ab21b">FREE cancellation and no prepayment needed</span>
+          <p><span style="color:#707070; font-weight: 100;font-size: small;">1 Night</span><br> SAR 622</p>
+          
+          <a href="HotelsPages/hotel6.html" class="btn btn-primary">Book now >></a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <br>
+  <br>
+  <br>
+</div>
+
+
+
+<footer class="footer">
+ <div class="a">Phone: 0534618001.</div>
+   <div class="a">To Contact Click <a href="mailto:xibra9141@gmail.com">
+ Here</a>.</div>
+ © 2020 Copyright: <a href="BookMe.com">
+ BookMe.com</a>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<!-- Bodyend ------------------------------------------------------------------------------------>
+
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src"js/bootstrap.min.js"></script>
+</body>
+</html>

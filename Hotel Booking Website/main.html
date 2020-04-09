@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+    <title>Hotel Booking | Home</title>
+    <!-- Bootstrap CSS file -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #212529;
+  color: white;
+  text-align: center;
+
+}
+div.a {
+  font-size: 15px;
+}
+</style>
+<body>
+
+<header>
+  <h2>Hotel Booking</h2>
+</header>
+<!--Body-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <img src="images/logoo.png" alt="HTML5 Icon">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<!--nav start-->
+    <ul class="navbar-nav mr-auto">
+      <!--links start-->
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <!---->
+      <li class="nav-item">
+        <a class="nav-link" href="hotels.html">Hotels</a>
+      </li>
+
+      <!--links end-->
+      <!--dropdown menu start-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="login.html">Login</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="register.html">Register</a>
+        </div>
+      </li>
+      <!--dropdown menu end-->
+    </ul>
+    <!--nav end-->
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" disabled  type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" disabled  type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-dark bg-dark">
+  <!-- Navbar content -->
+</nav>
+
+
+
+
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  Need to <a href="login.html" class="badge badge-primary">Login </a>or <a href="register.html" class="badge badge-info">Register</a> First
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<br>
+
+<!--cards-->
+
+
+
+<div class="container-md">
+<div class="card-group">
+  <div class="card">
+    <img src="images/12.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><span class="badge badge-success">Condo Hotel</span> Borgo il Poggetto  </h5>
+      <p class="card-text">The Domina is in Novate Milanese, 3 km from the FieraMilano exhibition centre and less than 10 minutes’ drive from the Expo 2015 exhibition site. The hotel offers free WiFi, free parking, and a shuttle bus to the fair during major events..</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><span class="badge badge-pill badge-success">Free WiFi </span></small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/13.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><span class="badge badge-secondary">Hotel</span> Borgo il Poggetto  </h5>
+      <p class="card-text">Set in Casale Marittimo in the Tuscany region, Borgo il Poggetto Residence provides accommodations with free WiFi...</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><span class="badge badge-pill badge-success">Free WiFi </span> <span class="badge badge-pill badge-dark">Free private parking available at the hotel</span></small>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/14.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"><span class="badge badge-secondary">Hotel</span> Domina Milano Fiera</h5>
+      <p class="card-text">The Domina is in Novate Milanese, 3 km from the FieraMilano exhibition centre and less than 10 minutes’ drive from the Expo 2015 exhibition site. The hotel offers free WiFi, free parking, and a shuttle bus to the fair during major events..</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><span class="badge badge-pill badge-success">Free WiFi </span></small>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<footer class="footer">
+ <div class="a">Phone: 0534618001.</div>
+   <div class="a">To Contact Click <a href="mailto:xibra9141@gmail.com">
+ Here</a>.</div>
+ © 2020 Copyright: <a href="BookMe.com">
+ BookMe.com</a>
+</footer>
+<!--cards end-->
+
+
+
+
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src"js/bootstrap.min.js"></script>
+</body>
+</html>

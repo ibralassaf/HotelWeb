@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+      <!-- head start -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Booking | Hotels</title>
+    <!-- Bootstrap CSS file and my own css files -->
+    <link rel="stylesheet" href="..//style1.css">
+
+    <link href="..//css/bootstrap.min.css" rel="stylesheet">   
+
+<body>
+<!----------------------nav start---------------------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="..//images/logoo.png" alt="logo">
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <!--links start-->
+      <li class="nav-item">
+        <a class="nav-link" href="..//main.html">Home </a>
+      </li>
+      <!---->
+      <li class="nav-item">
+        <a class="nav-link active" href="..//hotels.html">Hotels</a>
+      </li>
+      <!--links end-->
+      <!--dropdown menu start-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+        <!---->
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="..//login.html">Login</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="..//register.html">Register</a>
+        </div>
+      </li>
+      <!--dropdown menu end-->
+    </ul>
+    
+  </div>
+</nav>
+<nav class="navbar navbar-dark bg-dark">
+</nav>
+<!----------------------nav end---------------------->
+
+<!------------------------------------------------------------------------------------ Body start------------------------------------------------------------------------------------>
+<br>
+<div class="container">
+<div class="card text-center">
+  <div class="card-header">
+  <!-- name of hotel --> <h5 class="card-title" ><span class="badge badge-secondary">Hotel</span> Purchase table</h5> 
+  </div>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Information</th>
+              </tr>
+
+            </thead>
+            <tr>
+                <td style="font-weight: bold;">🏨 Hotel name:</td>
+                <td>Hotel</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">📅 Date of purchase:</td>
+                <td>1/1/2020</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">🧑 Persons:</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td style="font-weight: bold;">💲 Price:</td>
+                <td>100</td>
+            </tr>
+        </table>
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+</div>
+<!------------------------------------------------------------------------------------ Body end------------------------------------------------------------------------------------>
+
+
+
+<!-- scripts etc ------------------------------------------------------------------------------------>
+
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src"js/bootstrap.min.js"></script>
+    
+
+        <!-- this script for the select total price -->
+   
+        <script>
+
+
+          function total(){
+                   var total=  document.getElementById("numdays2").value;
+                   
+                   document.getElementById("sprice").innerHTML= total * 622;
+          
+          
+                } 
+             
+          
+          function GetDays(){
+                        var dropdt = new Date(document.getElementById("drop_date").value);
+                        var pickdt = new Date(document.getElementById("pick_date").value);
+                        return parseInt((dropdt - pickdt) / (24 * 3600 * 1000));
+                }
+          
+          function cal(){
+                if(document.getElementById("drop_date")){
+                    document.getElementById("numdays2").value= GetDays();
+                }    
+            }
+          
+          
+                
+                
+          
+          function myFunction() {
+                          var x = document.getElementById("mySelect").value;
+                          var totall=  document.getElementById("numdays2").value;
+                          var sinlep = document.getElementById("sprice").innerHTML;
+                          document.getElementById("tprice").innerHTML = x * sinlep ;
+                        }
+          
+          
+          
+              </script>
+
+</body>
+</html>
