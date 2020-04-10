@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xml" href="hotel1.xsl"?>
+<hotels>
+
+<hotel id="p1">
+<id>1</id>
+<name> Hafawah Suites </name>
+<pr> 251SAR </pr>
+<quan>1</quan>
+</hotel>
+
+<hotel>
+<id>2</id>
+<name> Golden Garden AlMadhina Hotel </name>
+<pr> 149SAR </pr>
+<quan>1</quan>
+</hotel>
+
+<hotel>
+<id>3</id>
+<name> Ewan Dar Alhejra Hotel </name>
+<pr> 140SAR </pr>
+<quan>1</quan>
+</hotel>
+
+<hotel>
+<id>4</id>
+<name> Marriott Executive Apartments Madinah </name>
+<pr> 540SAR </pr>
+<quan>1</quan>
+</hotel>
+
+<hotel>
+<id>5</id>
+<name>  Al Meknan Furnished Units </name>
+<pr> 453SAR </pr>
+<quan>1</quan>
+</hotel>
+
+<hotel>
+<id>6</id>
+<name>  Dallah Taibah Hotel </name>
+<pr> 622SAR </pr>
+<quan>1</quan>
+</hotel>
+
+</hotels>
