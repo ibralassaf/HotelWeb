@@ -7,18 +7,24 @@
 <body>
 <table border="1" bgcolor="#F0F8FF" style="text-align:center;font-size:2em;">
 
-<tr bgcolor="#FFE4C4">
-<th> Hotel-ID </th>
+<tr bgcolor="gray" style="color:white;">
+<th> ID </th>
 <th> Hotel-Name </th>
-<th> Hotel-Price </th>
-<th> Quantity </th>
+<th> Room floor </th>
+<th> Room Number </th>
+<th> Room-Price </th>
+<th> Date of purchase </th>
+<th> Persons </th>
 </tr>
 <xsl:for-each select="hotels/hotel[id=1]">
 <tr>
 <td><xsl:value-of select="id"/></td>
 <td><xsl:value-of select="name"/></td>
-<td><xsl:value-of select="pr"/></td>
-<td><xsl:value-of select="quan"/></td>
+<td><xsl:value-of select="floor"/>11</td> <!--> <!-->
+<td><xsl:value-of select="rooms"/>102</td> <!--> <!-->
+<td><xsl:value-of select="price"/>1255</td>
+<td><xsl:value-of select="date"/>11/4/2020</td> <!--> <!-->
+<td><xsl:value-of select="persons"/>5</td> <!--> <!-->
 
 </tr>
 </xsl:for-each>.
