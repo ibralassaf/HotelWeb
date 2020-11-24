@@ -2,64 +2,64 @@
 <?xml-stylesheet type="text/xml" href="hotels.xsl"?>
 <hotels>
 
-<hotel>
-<id>1</id>
-<name> Hafawah Suites </name>
-<floor></floor>
-<rooms></rooms>
-<price>  </price>
-<date>  </date>
-<persons></persons>
-</hotel>
+    <hotel>
+        <id>1</id>
+        <name> Hafawah Suites </name>
+        <floor></floor>
+        <rooms></rooms>
+        <price></price>
+        <date></date>
+        <persons></persons>
+    </hotel>
 
-<hotel>
-<id>2</id>
-<name> Golden Garden AlMadhina Hotel </name>
-<floor></floor>
-<rooms></rooms>
-<price>  </price>
-<date>  </date>
-<persons></persons>
-</hotel>
+    <hotel>
+        <id>2</id>
+        <name> Golden Garden AlMadhina Hotel </name>
+        <floor></floor>
+        <rooms></rooms>
+        <price></price>
+        <date></date>
+        <persons></persons>
+    </hotel>
 
-<hotel>
-<id>3</id>
-<name> Ewan Dar Alhejra Hotel </name>
-<floor></floor>
-<rooms></rooms>
-<price>  </price>
-<date>  </date>
-<persons></persons>
-</hotel>
+    <hotel>
+        <id>3</id>
+        <name> Ewan Dar Alhejra Hotel </name>
+        <floor></floor>
+        <rooms></rooms>
+        <price></price>
+        <date></date>
+        <persons></persons>
+    </hotel>
 
-<hotel>
-<id>4</id>
-<name> Marriott Executive Apartments Madinah </name>
-<floor></floor>
-<rooms></rooms>
-<price>  </price>
-<date>  </date>
-<persons></persons>
-</hotel>
+    <hotel>
+        <id>4</id>
+        <name> Marriott Executive Apartments Madinah </name>
+        <floor></floor>
+        <rooms></rooms>
+        <price></price>
+        <date></date>
+        <persons></persons>
+    </hotel>
 
-<hotel>
-<id>5</id>
-<name>  Al Meknan Furnished Units </name>
-<floor></floor>
-<rooms></rooms>
-<price>  </price>
-<date>  </date>
-<persons></persons>
-</hotel>
+    <hotel>
+        <id>5</id>
+        <name>  Al Meknan Furnished Units </name>
+        <floor></floor>
+        <rooms></rooms>
+        <price></price>
+        <date></date>
+        <persons></persons>
+    </hotel>
 
-<hotel>
-<id>6</id>
-<name>  Dallah Taibah Hotel </name>
-<floor></floor>
-<rooms></rooms>
-<price>  </price>
-<date>  </date>
-<persons></persons>
-</hotel>
+    <hotel>
+        <id>6</id>
+        <name>  Dallah Taibah Hotel </name>
+        <floor></floor>
+        <rooms></rooms>
+        <price></price>
+        <date></date>
+        <persons></persons>
+    </hotel>
 
 </hotels>
